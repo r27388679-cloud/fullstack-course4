@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Navbar Styles */
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  font-size: 1.5em;
+  color: #557c3e;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand:hover {
+  color: #E7E7E7;
+  text-decoration: none;
+}
+
+/* Navbar Toggle Button (Hamburger) Styles */
+.navbar-toggle {
+  border: 1px solid #61122f;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #61122f;
+}
+
+/* Mobile Menu Styles */
+#nav-list {
+  background-color: #f6b319; 
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list a {
+  color: #557c3e;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/* Main Content Styles */
+h1 {
+  margin-bottom: 30px;
+  color: #f6b319; 
+}
+
+/* The Tall Section Requirement */
+.tall-section {
+  background-color: #999;
+  height: 1000px; /* Forces page to scroll */
+  border: 2px solid #000;
+  padding: 20px;
+  color: #000;
+  font-size: 2em;
+}
